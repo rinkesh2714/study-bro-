@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+}
+  body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+  }
+  .me{
+    color: wheat;
+
+  }
+  .find {
+   display: flex;
+align-items: center;
+justify-content: space-between;
+overflow: hidden;
+font-size: larger;
+color: wheat;
+background-color: black;
+padding: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: wheat;
+}
+.motiv{
+    background-image: url(images/pexels-buro-millennial-636760-1438081.jpg);
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: cover;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:20px;
+    background-attachment: fixed;
+}
+.us{
+    padding: 40px;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+}
+.us p{
+    padding: 20px;
+}
+.you{
+    padding: 50px;
+}
+.size{
+    border-radius: 60px;
+}
+.learn{
+ padding: 30px;
+ text-align: center;
+ background-color:gray;
+ color: aliceblue;
+ border: 0px;
+}
+.rev{
+padding: 20px;
+}
+
+.review{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.review p{
+    padding: 15px;
+    color: black;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.girl{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.girl p{
+    padding: 15px;
+    color: black;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.round{
+    border-radius: 130px;
+}
+.rev{
+    background-color:gray;
+    background-image: url(images/pexels-pixabay-301920.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.rev h2 {
+    text-align: center;
+    color: black; 
+    padding: 10px;
+       font-size:50px ;
+}
+.connect {
+    text-align: right;
+    padding: 40px;
+    background-color: black;
+    color: aliceblue;
+}
+input[type="text"],input[type="email"],input[type="message"],textarea{
+    font-size: 20px;
+}
+.menu-btn:hover{
+    background-color: bisque;
+    color: black;
+}
+footer a{
+    padding: 15px;
+    color: aliceblue;
+    overflow: hidden;
+    text-decoration: none;
+}
+footer{
+    background-color: black;
+}
